@@ -1,0 +1,34 @@
+{
+    "name": "ControlSchema",
+    "maps": [
+        {
+            "name": "Jumper",
+            "id": "669f8bad-f0b0-4fd2-876f-d746eca16003",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "60c3ae05-c719-4dbd-acdc-84b2224a8398",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "201bc5a5-4527-4eb9-8148-07c46ae353d4",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
